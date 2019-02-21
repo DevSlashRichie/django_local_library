@@ -31,7 +31,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '#vc#9@6^l@0$#8&w^wnv9d41592xl^
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['powerful-plateau-54835.herokuapp.com','127.0.0.1']
+# For example: 
+# ALLOWED_HOSTS = ['fathomless-scrubland-30645.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
